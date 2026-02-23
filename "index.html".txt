@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ford Trucks & Broncos</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #111;
+            color: #f4f4f4;
+        }
+
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
+                        url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+            background-size: cover;
+            background-position: center;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #0d6efd;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            max-width: 700px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            color: #0d6efd;
+            border-bottom: 2px solid #0d6efd;
+            padding-bottom: 10px;
+        }
+
+        .vehicle-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .vehicle {
+            background-color: #1c1c1c;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .vehicle img {
+            width: 100%;
+            border-radius: 6px;
+        }
+
+        footer {
+            background-color: #000;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ford Trucks & Broncos</h1>
+    <p>Built for work. Built for adventure. Built Ford Tough.</p>
+</header>
+
+<section>
+    <h2>My Ford Story</h2>
+    <p>
+        I come from a Ford family and have been driving Ford trucks and Broncos my entire life.
+        Whether it’s getting to work, heading out camping, or exploring off-road trails,
+        Ford has always been reliable and dependable for me. They have never let me down
+        and always get me where I need to go.
+    </p>
+    <p>
+        From older classics to modern heavy-duty trucks, Ford vehicles are part of who I am.
+        They represent strength, durability, and adventure.
+    </p>
+</section>
+
+<section>
+    <h2>Classic Legends (1989 Models)</h2>
+    <div class="vehicle-gallery">
+        <div class="vehicle">
+            <h3>1989 Ford F-150</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3e/1989_Ford_F-150.jpg" alt="1989 Ford F-150">
+            <p>A dependable classic that helped define toughness in the late 80s.</p>
+        </div>
+
+        <div class="vehicle">
+            <h3>1989 Ford Bronco</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/1989_Ford_Bronco.jpg" alt="1989 Ford Bronco">
+            <p>An iconic full-size SUV built for trails, mud, and adventure.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Modern Power</h2>
+    <div class="vehicle-gallery">
+        <div class="vehicle">
+            <h3>Ford Super Duty</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/2022_Ford_F-250_Super_Duty.jpg" alt="Ford Super Duty">
+            <p>Massive power and capability for towing, hauling, and hard work.</p>
+        </div>
+
+        <div class="vehicle">
+            <h3>New Ford Bronco</h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/2021_Ford_Bronco.jpg" alt="New Ford Bronco">
+            <p>Modern off-road performance with classic Bronco heritage.</p>
+        </div>
+    </div>
+</section>
+
+<section>
+    <h2>Why I Choose Ford</h2>
+    <p>
+        I use my trucks and Broncos for off-roading, camping, overlanding,
+        and everyday transportation. They give me confidence whether I'm
+        on the highway or miles into the woods.
+    </p>
+    <p>
+        Ford represents tradition in my family, reliability in my life,
+        and adventure in everything I do.
+    </p>
+</section>
+
+<footer>
+    <p>Created for class | Built with HTML & CSS | 2026</p>
+</footer>
+
+</body>
+</html>
